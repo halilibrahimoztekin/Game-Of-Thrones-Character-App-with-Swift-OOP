@@ -13,9 +13,11 @@
 		592C74E52722ED46003D6ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C74E32722ED46003D6ED0 /* Main.storyboard */; };
 		592C74E72722ED48003D6ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592C74E62722ED48003D6ED0 /* Assets.xcassets */; };
 		592C74EA2722ED48003D6ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592C74E82722ED48003D6ED0 /* LaunchScreen.storyboard */; };
-		592C74F52722ED48003D6ED0 /* SimpsonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C74F42722ED48003D6ED0 /* SimpsonAppTests.swift */; };
-		592C74FF2722ED48003D6ED0 /* SimpsonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C74FE2722ED48003D6ED0 /* SimpsonAppUITests.swift */; };
-		592C75012722ED48003D6ED0 /* SimpsonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C75002722ED48003D6ED0 /* SimpsonAppUITestsLaunchTests.swift */; };
+		592C74F52722ED48003D6ED0 /* GameOfThronesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C74F42722ED48003D6ED0 /* GameOfThronesAppTests.swift */; };
+		592C74FF2722ED48003D6ED0 /* GameOfThronesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C74FE2722ED48003D6ED0 /* GameOfThronesAppUITests.swift */; };
+		592C75012722ED48003D6ED0 /* GameOfThronesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C75002722ED48003D6ED0 /* GameOfThronesAppUITestsLaunchTests.swift */; };
+		592C752527231041003D6ED0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592C752427231041003D6ED0 /* DetailsViewController.swift */; };
+		59CBF11E27242F8C00D8D5A8 /* CharacterC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CBF11D27242F8C00D8D5A8 /* CharacterC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		592C74DA2722ED46003D6ED0 /* SimpsonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592C74DA2722ED46003D6ED0 /* GameOfThronesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592C74DD2722ED46003D6ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592C74DF2722ED46003D6ED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		592C74E12722ED46003D6ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +46,13 @@
 		592C74E62722ED48003D6ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592C74E92722ED48003D6ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592C74EB2722ED48003D6ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		592C74F02722ED48003D6ED0 /* SimpsonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		592C74F42722ED48003D6ED0 /* SimpsonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonAppTests.swift; sourceTree = "<group>"; };
-		592C74FA2722ED48003D6ED0 /* SimpsonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		592C74FE2722ED48003D6ED0 /* SimpsonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonAppUITests.swift; sourceTree = "<group>"; };
-		592C75002722ED48003D6ED0 /* SimpsonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		592C74F02722ED48003D6ED0 /* GameOfThronesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592C74F42722ED48003D6ED0 /* GameOfThronesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesAppTests.swift; sourceTree = "<group>"; };
+		592C74FA2722ED48003D6ED0 /* GameOfThronesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592C74FE2722ED48003D6ED0 /* GameOfThronesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesAppUITests.swift; sourceTree = "<group>"; };
+		592C75002722ED48003D6ED0 /* GameOfThronesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		592C752427231041003D6ED0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		59CBF11D27242F8C00D8D5A8 /* CharacterC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,9 @@
 		592C74D12722ED46003D6ED0 = {
 			isa = PBXGroup;
 			children = (
-				592C74DC2722ED46003D6ED0 /* SimpsonApp */,
-				592C74F32722ED48003D6ED0 /* SimpsonAppTests */,
-				592C74FD2722ED48003D6ED0 /* SimpsonAppUITests */,
+				592C74DC2722ED46003D6ED0 /* GameOfThronesApp */,
+				592C74F32722ED48003D6ED0 /* GameOfThronesAppTests */,
+				592C74FD2722ED48003D6ED0 /* GameOfThronesAppUITests */,
 				592C74DB2722ED46003D6ED0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +93,14 @@
 		592C74DB2722ED46003D6ED0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				592C74DA2722ED46003D6ED0 /* SimpsonApp.app */,
-				592C74F02722ED48003D6ED0 /* SimpsonAppTests.xctest */,
-				592C74FA2722ED48003D6ED0 /* SimpsonAppUITests.xctest */,
+				592C74DA2722ED46003D6ED0 /* GameOfThronesApp.app */,
+				592C74F02722ED48003D6ED0 /* GameOfThronesAppTests.xctest */,
+				592C74FA2722ED48003D6ED0 /* GameOfThronesAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		592C74DC2722ED46003D6ED0 /* SimpsonApp */ = {
+		592C74DC2722ED46003D6ED0 /* GameOfThronesApp */ = {
 			isa = PBXGroup;
 			children = (
 				592C74DD2722ED46003D6ED0 /* AppDelegate.swift */,
@@ -106,33 +110,35 @@
 				592C74E62722ED48003D6ED0 /* Assets.xcassets */,
 				592C74E82722ED48003D6ED0 /* LaunchScreen.storyboard */,
 				592C74EB2722ED48003D6ED0 /* Info.plist */,
+				592C752427231041003D6ED0 /* DetailsViewController.swift */,
+				59CBF11D27242F8C00D8D5A8 /* CharacterC.swift */,
 			);
-			path = SimpsonApp;
+			path = GameOfThronesApp;
 			sourceTree = "<group>";
 		};
-		592C74F32722ED48003D6ED0 /* SimpsonAppTests */ = {
+		592C74F32722ED48003D6ED0 /* GameOfThronesAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				592C74F42722ED48003D6ED0 /* SimpsonAppTests.swift */,
+				592C74F42722ED48003D6ED0 /* GameOfThronesAppTests.swift */,
 			);
-			path = SimpsonAppTests;
+			path = GameOfThronesAppTests;
 			sourceTree = "<group>";
 		};
-		592C74FD2722ED48003D6ED0 /* SimpsonAppUITests */ = {
+		592C74FD2722ED48003D6ED0 /* GameOfThronesAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				592C74FE2722ED48003D6ED0 /* SimpsonAppUITests.swift */,
-				592C75002722ED48003D6ED0 /* SimpsonAppUITestsLaunchTests.swift */,
+				592C74FE2722ED48003D6ED0 /* GameOfThronesAppUITests.swift */,
+				592C75002722ED48003D6ED0 /* GameOfThronesAppUITestsLaunchTests.swift */,
 			);
-			path = SimpsonAppUITests;
+			path = GameOfThronesAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		592C74D92722ED46003D6ED0 /* SimpsonApp */ = {
+		592C74D92722ED46003D6ED0 /* GameOfThronesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 592C75042722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonApp" */;
+			buildConfigurationList = 592C75042722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesApp" */;
 			buildPhases = (
 				592C74D62722ED46003D6ED0 /* Sources */,
 				592C74D72722ED46003D6ED0 /* Frameworks */,
@@ -142,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpsonApp;
+			name = GameOfThronesApp;
 			productName = SimpsonApp;
-			productReference = 592C74DA2722ED46003D6ED0 /* SimpsonApp.app */;
+			productReference = 592C74DA2722ED46003D6ED0 /* GameOfThronesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		592C74EF2722ED48003D6ED0 /* SimpsonAppTests */ = {
+		592C74EF2722ED48003D6ED0 /* GameOfThronesAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 592C75072722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonAppTests" */;
+			buildConfigurationList = 592C75072722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesAppTests" */;
 			buildPhases = (
 				592C74EC2722ED48003D6ED0 /* Sources */,
 				592C74ED2722ED48003D6ED0 /* Frameworks */,
@@ -160,14 +166,14 @@
 			dependencies = (
 				592C74F22722ED48003D6ED0 /* PBXTargetDependency */,
 			);
-			name = SimpsonAppTests;
+			name = GameOfThronesAppTests;
 			productName = SimpsonAppTests;
-			productReference = 592C74F02722ED48003D6ED0 /* SimpsonAppTests.xctest */;
+			productReference = 592C74F02722ED48003D6ED0 /* GameOfThronesAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		592C74F92722ED48003D6ED0 /* SimpsonAppUITests */ = {
+		592C74F92722ED48003D6ED0 /* GameOfThronesAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 592C750A2722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonAppUITests" */;
+			buildConfigurationList = 592C750A2722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesAppUITests" */;
 			buildPhases = (
 				592C74F62722ED48003D6ED0 /* Sources */,
 				592C74F72722ED48003D6ED0 /* Frameworks */,
@@ -178,9 +184,9 @@
 			dependencies = (
 				592C74FC2722ED48003D6ED0 /* PBXTargetDependency */,
 			);
-			name = SimpsonAppUITests;
+			name = GameOfThronesAppUITests;
 			productName = SimpsonAppUITests;
-			productReference = 592C74FA2722ED48003D6ED0 /* SimpsonAppUITests.xctest */;
+			productReference = 592C74FA2722ED48003D6ED0 /* GameOfThronesAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 592C74D52722ED46003D6ED0 /* Build configuration list for PBXProject "SimpsonApp" */;
+			buildConfigurationList = 592C74D52722ED46003D6ED0 /* Build configuration list for PBXProject "GameOfThronesApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				592C74D92722ED46003D6ED0 /* SimpsonApp */,
-				592C74EF2722ED48003D6ED0 /* SimpsonAppTests */,
-				592C74F92722ED48003D6ED0 /* SimpsonAppUITests */,
+				592C74D92722ED46003D6ED0 /* GameOfThronesApp */,
+				592C74EF2722ED48003D6ED0 /* GameOfThronesAppTests */,
+				592C74F92722ED48003D6ED0 /* GameOfThronesAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CBF11E27242F8C00D8D5A8 /* CharacterC.swift in Sources */,
 				592C74E22722ED46003D6ED0 /* ViewController.swift in Sources */,
 				592C74DE2722ED46003D6ED0 /* AppDelegate.swift in Sources */,
 				592C74E02722ED46003D6ED0 /* SceneDelegate.swift in Sources */,
+				592C752527231041003D6ED0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592C74F52722ED48003D6ED0 /* SimpsonAppTests.swift in Sources */,
+				592C74F52722ED48003D6ED0 /* GameOfThronesAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592C75012722ED48003D6ED0 /* SimpsonAppUITestsLaunchTests.swift in Sources */,
-				592C74FF2722ED48003D6ED0 /* SimpsonAppUITests.swift in Sources */,
+				592C75012722ED48003D6ED0 /* GameOfThronesAppUITestsLaunchTests.swift in Sources */,
+				592C74FF2722ED48003D6ED0 /* GameOfThronesAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		592C74F22722ED48003D6ED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 592C74D92722ED46003D6ED0 /* SimpsonApp */;
+			target = 592C74D92722ED46003D6ED0 /* GameOfThronesApp */;
 			targetProxy = 592C74F12722ED48003D6ED0 /* PBXContainerItemProxy */;
 		};
 		592C74FC2722ED48003D6ED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 592C74D92722ED46003D6ED0 /* SimpsonApp */;
+			target = 592C74D92722ED46003D6ED0 /* GameOfThronesApp */;
 			targetProxy = 592C74FB2722ED48003D6ED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,6 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -422,6 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -440,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpsonApp/Info.plist;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.isoas.SimpsonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoas.GameOfThronesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpsonApp/Info.plist;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.isoas.SimpsonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoas.GameOfThronesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -506,7 +516,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpsonApp.app/SimpsonApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfThronesApp.app/GameOfThronesApp";
 			};
 			name = Debug;
 		};
@@ -530,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpsonApp.app/SimpsonApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfThronesApp.app/GameOfThronesApp";
 			};
 			name = Release;
 		};
@@ -581,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		592C74D52722ED46003D6ED0 /* Build configuration list for PBXProject "SimpsonApp" */ = {
+		592C74D52722ED46003D6ED0 /* Build configuration list for PBXProject "GameOfThronesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592C75022722ED48003D6ED0 /* Debug */,
@@ -590,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		592C75042722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonApp" */ = {
+		592C75042722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592C75052722ED48003D6ED0 /* Debug */,
@@ -599,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		592C75072722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonAppTests" */ = {
+		592C75072722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592C75082722ED48003D6ED0 /* Debug */,
@@ -608,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		592C750A2722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "SimpsonAppUITests" */ = {
+		592C750A2722ED48003D6ED0 /* Build configuration list for PBXNativeTarget "GameOfThronesAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592C750B2722ED48003D6ED0 /* Debug */,
