@@ -17,6 +17,10 @@
 
 4.Abstraction
 
+## TableView Using
+
+
+
 
 ![Alt text](https://github.com/halilibrahimoztekin/Game-Of-Thrones-Character-App-with-Swift-OOP/blob/main/GameOfThronesApp/SS/ss1.png "Optional title")
 
