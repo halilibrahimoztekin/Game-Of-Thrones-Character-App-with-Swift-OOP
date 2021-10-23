@@ -36,6 +36,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         gameOfThronesArray.append(ned)
         gameOfThronesArray.append(oberyn)
         gameOfThronesArray.append(tyrion)
+        navigationItem.title = "Game of Thrones"
+        navigationItem.backButtonTitle = "Geri"
         
         
     }
